@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "joshuaende-kgbuild_jd160"
+name = "joshuaende-multinode_bandwidth_bottleneck_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出知识图谱构建工程师·多机通信的带宽瓶颈上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://joshuaende.github.io"
-Repository = "https://github.com/joshuaende/kgbuild_jd160"
-Issues = "https://github.com/joshuaende/kgbuild_jd160/issues"
+Repository = "https://github.com/joshuaende/multinode_bandwidth_bottleneck_grouping"
+Issues = "https://github.com/joshuaende/multinode_bandwidth_bottleneck_grouping/issues"
 
 [project.scripts]
-kgbuild_jd160 = "kgbuild_jd160:main"
+multinode_bandwidth_bottleneck_grouping = "multinode_bandwidth_bottleneck_grouping:main"
 
 [tool.setuptools]
-py-modules = ["kgbuild_jd160"]
+py-modules = ["multinode_bandwidth_bottleneck_grouping"]
